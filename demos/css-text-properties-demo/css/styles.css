@@ -1,0 +1,18 @@
+h1 {
+    color: #5613dc;
+    text-align: center;
+}
+span {
+    font-style: italic;
+}
+#sp1 {
+    font-weight: bold;
+}
+h3 {
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #ff7700; 
+    font-weight: 600;
+}
