@@ -1,12 +1,36 @@
+ body {
+   background-color: #0e0c10;
+   color: #f2e8e8;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
  .color-palettes {
     box-shadow: 6px 6px 12px #989898;
     text-align: center;
     margin: 24px; 
-    padding: 24px
+    padding: 24px;
+    background-color: #29232e;
+    border: 1px solid #65566b;
+    border-radius: 12px;
  }
  .color {
     margin: 0px; 
-    padding: 24px; 
+    padding: 24px;
+   
+ }
+ h1 {
+   color: #d85c86;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 42px;
+   font-style: italic;
+   letter-spacing: 2px;
+   text-align: center;
+ }
+ h2 {
+   color: #e8d9e5;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 26px;
+   font-style: italic;
+   text-align: center;
  }
  #c1a {
     background-color: #101a18;
