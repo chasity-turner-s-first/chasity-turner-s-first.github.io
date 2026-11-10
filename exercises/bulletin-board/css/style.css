@@ -1,0 +1,46 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    display: inline-block;
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    font-family: sans-serif;
+    padding: 24px;
+    margin: 24px;
+    vertical-align: top;
+}
+.violetblue {
+    background-color: #5e5eec;
+}
+.polaroid {
+    background-color: white;
+    padding: 12px 12px 35px 12px;
+    box-shadow: 3px 4px 8 px #888;
+    transform: rotate(-3deg);
+}
+.polaroid img {
+    width: 170px;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+.polaroid p {
+    font-family: cursive;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
+}
+p { 
+    font-family: 'Times New Roman', Times, serif;
+}
+li {
+    font-style: italic;
+}
