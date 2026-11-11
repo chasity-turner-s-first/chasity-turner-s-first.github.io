@@ -1,0 +1,53 @@
+.calendar {
+    border: 1px solid #7c263c;
+    display: inline-block;
+    border-radius: 22px;
+    padding: 18px;
+    margin-left: 12px;
+}
+.day {
+    color: #d85b42;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.date {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+.event {
+    border-left: 4px solid #7c263c;
+    background-color: #e8d0d1;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+.event-name {
+    color: #171719;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.event-type {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: #7c263c;
+}
+.time {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.work {
+    background-color: #e8d0d1;
+    border-left-color: #7c263c;
+}
+.personal {
+    background-color: #e8d9d0;
+    border-left-color: #d85b42;
+}
+.work .event-type {
+    color: #7c263c;
+}
+.personal .event-type {
+    color: #d85b42;
+}
