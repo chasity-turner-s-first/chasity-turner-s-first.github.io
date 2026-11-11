@@ -1,0 +1,12 @@
+/* 
+    1 value: targets all four sides.
+    2 values: 1st value targets the top&bottom 2nd targets left and right.
+    3 values: 1st the top 2nd the left and right 3rd targets bottom.
+    4 values: 1st top 2nd right 3rd the bottom and 4th the left. 
+ */
+div {
+    border: 4px dashed orange;
+    padding: 24px;
+    margin: 24px 80px;
+    border-radius: 24px;
+}
