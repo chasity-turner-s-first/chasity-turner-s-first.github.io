@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: #101010;
+    padding: 25px 0px;
+}
+nav a {
+    color: crimson;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.btn {
+    border: 1px solid crimson;
+    border-radius: 10px;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: crimson;
+    color: #101010;
+}
+a.btn.alt {
+    background-color: #101010;
+    color: crimson;
+}
+.btn:hover {
+    background-color: #101010;
+    color: crimson;
+}
+.btn.btn.alt:hover:hover {
+    background-color: crimson;
+    color: #101010;
+}
