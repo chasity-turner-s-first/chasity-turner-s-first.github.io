@@ -4,7 +4,7 @@
 }
 body {
     margin: 0px;
-    background-color:#171416 ;
+    background-color: #171416 ;
     color: #43393e ;
     font-family: Georgia, serif;
     line-height: 1.8;
@@ -95,15 +95,15 @@ p {
     margin-bottom: 22px;
 }
 /* Artical images */
-article img {
+#article img {
     width: 100%;
     height: auto;
     display: block;
     margin: 35px auto;
-    border: 5px solid #e2d7ca
+    border: 5px solid #e2d7ca;
 }
 /* quote */
-blockquote {
+.quote {
     background-color: #e9dfd5;
     border-left: 4px solid #a65b32;
     padding: 20px;
