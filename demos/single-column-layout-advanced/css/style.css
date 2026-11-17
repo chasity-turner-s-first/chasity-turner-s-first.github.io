@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+h1, h2 {
+    margin-top: 0;
+    font-family: "Cormorant Garamond";
+}
+.single-column {
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg { 
+    background-color: grey;
+    color: #000;
+    padding: 25px 0;
+}
+.lbg {
+    padding: 25px 0px;
+    background-color: antiquewhite;
+}
+header {
+    background-color: #101010;
+    padding: 25px 0px;
+    font-family: "Playwrite België Vlaanderen";
+}
+nav a {
+    color: crimson;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.btn {
+    border: 1px solid crimson;
+    border-radius: 10px;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: crimson;
+    color: #101010;
+    transition: 
+        background-color 0.5s,
+        border-color 0.5s,
+        color 0.5s;
+}
+a.btn.alt {
+    border-color: antiquewhite;
+    background-color: #101010;
+    color: crimson;
+}
+.btn:hover {
+    background-color: #101010;
+    border-color: antiquewhite;
+    color: crimson;
+}
+.btn.btn.alt:hover:hover {
+    background-color: crimson;
+    color: #101010;
+}
