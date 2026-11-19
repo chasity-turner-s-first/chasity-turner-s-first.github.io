@@ -1,0 +1,27 @@
+#playground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    border: 3px solid black;
+    background-color: lightgray;
+}
+.box {
+    width: 70px;
+    height: 70px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.box-one {
+    background-color: #c75b39;
+}
+.box-two {
+    background-color: #477b91;
+}
+.box-three {
+    background-color: #63815b;
+}
