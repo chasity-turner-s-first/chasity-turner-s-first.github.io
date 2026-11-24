@@ -17,7 +17,7 @@ img {
 #thumbnail-column {
     width: 100px;
 }
-#featured-image-column {
+#image-column {
     flex: 1;
 }
 #info-column {
@@ -50,6 +50,6 @@ img {
     width: 100%;
     margin-bottom: 10px;
 }
-#featured-image-column img {
+#image-column img {
     width: 100%;
 }
